@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header--read{
+    background-color: bisque;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-bgr {
+    background-color: bisque;
+}
+
+.banner {
+    background-image: url(https://static.cdnno.com/storage/topbox/27c998b30a8948e7c5f7be8abc3685e8.jpg);
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 388px;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    background-size: cover;
+}
+
+#app .main {
+    padding-top: 250px;
+}
+
+.page-content {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.media-img {
+    width: 72px;
+    margin-right: 14px;
+  
+}
+
+.nh-thumb {
+    display: inline-block;
+    overflow: hidden;
+    position: relative; 
+}
+
+.media-img img {
+    width: 100%;
+    height: auto;
+
+}
+
+hr {
+    margin: 24px 0;
+}
+
+#continue-reading {
+
+}
+
+#continue-reading ul {
+    padding-left: 0;
+}
+#continue-reading .img-reading{
+    width: 32px;
+    margin-right: 16px;
+}
+
+
+.fz-body {
+    font-size: 15px;
+}
+
+.text-secondary {
+    font-size: 14px;
+}
+
+.text-overflow-1-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.text-overflow-2-lines {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.media-body .mr-auto {
+    margin-right: auto;
+}
+
+.media-body .small {
+    font-size: 80%; 
+}
+
+.text-mute {
+    color: #6c757d!important;
+}
+
+.float-left {
+    float: left!important;
+}
+
+#finish .row-finish {
+    text-align: center;
+} 
+
+#finish img{
+    max-width: 164px;
+    max-height: 245px;
+}
+
+
+#finish .caption {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+#finish .caption h3 {
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+#finish small {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+#ranking .home-rank {
+    min-height: 590px;
+    background-color: aquamarine;
+}
+
+#ranking .item {
+    position: relative;
+    padding-left: 36px;
+}
+
+#ranking li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#ranking .index {
+    font-weight: 600;
+    width: 24px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 32px;
+    text-align: center;
+}
+#ranking .pr-3 {
+    padding-right: 16px;
+}
+
+#ranking .py-2 {
+    width: 245px;
+}
+
+#ranking .content {
+    border-bottom: 1px solid #eee;
+}
+
+.footer {
+    padding: 24px 0;
+}
+
+#footer {
+  
+}
+
+
+#footer .logo-ggplay {
+    margin-right: 16px;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .noidung {
+        display: none;
+    }
+    .banner {
+        display: none;
+    }
+
+    .reading {
+        width: 100%;
+    }
+
+    #app .main {
+        padding-top: 10px;
+    }
+
+    #ranking .abc {
+        width: 100%;
+    }
+}
+
+
+
+.col-xs-6 {
+    width: 50%;
+}
+    
+
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 25%;
+}
+}
+
+@media (min-width: 992px){
+.col-md-2 {
+    width: 16.66666667%;
+}
+}
