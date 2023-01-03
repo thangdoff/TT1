@@ -20,7 +20,11 @@
     }
 }
 
-
+@media (min-width: 576px) {
+    .col-xs-6 {
+        width: 33.3333333%;
+    }
+}   
 
 .col-xs-6 {
     width: 50%;
@@ -30,11 +34,11 @@
 @media (min-width: 768px){
 .col-sm-3 {
     width: 25%;
-}
+    }
 }
 
 @media (min-width: 992px){
 .col-md-2 {
     width: 16.66666667%;
-}
+    }
 }
