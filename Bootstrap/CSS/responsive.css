@@ -1,0 +1,40 @@
+
+@media (max-width: 576px) {
+    .noidung {
+        display: none;
+    }
+    .banner {
+        display: none;
+    }
+
+    .reading {
+        width: 100%;
+    }
+
+    #app .main {
+        padding-top: 10px;
+    }
+
+    #ranking .abc {
+        width: 100%;
+    }
+}
+
+
+
+.col-xs-6 {
+    width: 50%;
+}
+    
+
+@media (min-width: 768px){
+.col-sm-3 {
+    width: 25%;
+}
+}
+
+@media (min-width: 992px){
+.col-md-2 {
+    width: 16.66666667%;
+}
+}
