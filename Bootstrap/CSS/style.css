@@ -50,10 +50,6 @@ a {
 }
 
 .media {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -172,9 +168,13 @@ hr {
 
 
 #ranking .home-rank {
-    min-height: 590px;
-    background-color: aquamarine;
+    -webkit-box-shadow: 0 10px 25px 0 #d7d4ce;
+    -moz-box-shadow: 0 10px 25px 0 #d7d4ce;
+    box-shadow: 0 10px 25px 0 #d7d4ce;
+    min-height: 505px;
 }
+
+
 
 #ranking .item {
     position: relative;
@@ -202,12 +202,11 @@ hr {
     padding-right: 16px;
 }
 
-#ranking .py-2 {
-    width: 245px;
-}
+
 
 #ranking .content {
     border-bottom: 1px solid #eee;
+    justify-content: space-between;
 }
 
 .footer {
@@ -222,5 +221,3 @@ hr {
 #footer .logo-ggplay {
     margin-right: 16px;
 }
-
-
