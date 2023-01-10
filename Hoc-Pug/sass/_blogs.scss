@@ -1,0 +1,41 @@
+.blog {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: center;
+
+    &-header {
+        margin-bottom: 64px;
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 75px;
+    }
+
+
+    &-img img {
+        border-radius: 10px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 31px;
+    }
+
+    &__content {
+        text-align: left;
+
+        &-title {
+            margin-bottom: 12px;
+        }
+
+        &-desc {
+            margin-top: 20px;
+        }
+       
+    }
+
+    &-btn {
+        margin-top: 70px;
+    }
+}

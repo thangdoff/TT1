@@ -1,0 +1,23 @@
+.connect {
+    width: 100%;
+    padding: 60px 0 70px;
+    background: #FFF4F4;
+    border-radius: 20px;
+    text-align: center;
+
+    &-title {
+        max-width: 790px;
+        margin: 0 auto 74px;
+        
+    }
+
+   
+    &-input {
+        padding: 15px 150px 15px 35px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}

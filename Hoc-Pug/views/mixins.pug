@@ -1,0 +1,8 @@
+mixin blogitem(img, title, date, desc)
+    .blog-item 
+        .blog-img 
+            img(src= img)
+        .blog__content
+            h3.global__heading.global__heading-second.blog__content-title= title 
+            span.blog__content-date= date 
+            p.global__text.global__text-second.blog__content-desc= desc

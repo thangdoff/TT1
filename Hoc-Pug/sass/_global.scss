@@ -1,0 +1,102 @@
+.wrapper{
+  max-width: 1195px;
+  margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 18px 38px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #6347F9;
+    cursor: pointer;
+
+    &-big {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+
+        &:hover {
+            background-color: $violet;
+            color: white;
+        }
+
+    }
+
+    &-small {
+      
+        font-size: 12px;
+        letter-spacing: 0.01em;
+        padding: 12px 19px;
+
+        &:hover {
+            background-color: $violet;
+            color: white;
+        }
+    }
+}
+
+.global {
+    &-caption {
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 72px;
+        color: $dark;
+    }
+
+    &__heading {
+        font-weight: bold;      
+        color: $dark;
+        &-first {
+            font-size: 44px;
+            line-height: 58px;
+        }
+
+        &-second {
+            font-size: 22px;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+        }
+
+        &-third {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+
+    &__text {
+        font-weight: 400;
+        color: $text;
+
+        &-first {
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        &-second {
+            
+            font-size: 16px;
+            line-height: 26px;
+            
+        }
+
+        &-third {
+         
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 0.01em;
+            
+        }
+    }
+}
