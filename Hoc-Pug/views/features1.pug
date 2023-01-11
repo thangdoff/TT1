@@ -4,40 +4,10 @@ section.service
         p.global__text.global__text-second.service-desc Travel by water often provided more commfort and speed than land-travel.
     
     .service-list
-        .service-item 
-            img(src="./images/japan.png", alt="japan")
-            .service__content
-                .service__content-text
-                    h3.global__heading.global__heading-second.service__content-heading Japan
-                    p.global__text.global__text-third 6 day 6 Nights
-                a.button.button-small.service__content-btn(href="#") Book Now
-
-        
-        .service-item 
-            img(src="./images/italy.png", alt="italy")
-            .service__content
-                .service__content-text
-                    h3.global__heading.global__heading-second.service__content-heading Italy
-                    p.global__text.global__text-third 7 day 6 Nights
-                a.button.button-small.service__content-btn(href="#") Book Now
-
-        
-        .service-item 
-            img(src="./images/canada.png", alt="canada")
-            .service__content
-                .service__content-text
-                    h3.global__heading.global__heading-second.service__content-heading Canada
-                    p.global__text.global__text-third 6 day 5 Nights
-                a.button.button-small.service__content-btn(href="#") Book Now
-
-
-        .service-item 
-            img(src="./images/brazil.png", alt="brazil")
-            .service__content
-                .service__content-text
-                    h3.global__heading.global__heading-second.service__content-heading Brazil
-                    p.global__text.global__text-third 9 day 8 Nights
-                a.button.button-small.service__content-btn(href="#") Book Now
+        +serviceitem("./images/japan.png", "Japan", "6 day 6 Nights", "Book Now" )
+        +serviceitem("./images/italy.png", "Italy", "7 day 6 Nights", "Book Now" )
+        +serviceitem("./images/canada.png", "Canada", "6 day 5 Nights", "Book Now" )
+        +serviceitem("./images/brazil.png", "Brazil", "9 day 8 Nights", "Book Now" )
 
     .service-btn
         a.button.button-big(href="#") See More
