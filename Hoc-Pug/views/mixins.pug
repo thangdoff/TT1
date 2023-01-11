@@ -6,3 +6,12 @@ mixin blogitem(img, title, date, desc)
             h3.global__heading.global__heading-second.blog__content-title= title 
             span.blog__content-date= date 
             p.global__text.global__text-second.blog__content-desc= desc
+            
+mixin serviceitem(img, title, text, btn)
+    .service-item 
+        img(src= img)
+        .service__content 
+            .service__content-text
+                h3.global__heading.global__heading-second.service__content-heading= title
+                p.global__text.global__text-third= text 
+            a.button.button-small.service__content-btn(href="#")= btn
